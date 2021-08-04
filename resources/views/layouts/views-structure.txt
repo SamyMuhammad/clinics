@@ -1,0 +1,32 @@
+@extends('layouts.app')
+
+@section('title', '')
+
+@section('page-style-plugins')
+@endsection
+
+@section('page-level-styles')
+@endsection
+
+@section('theme-layout-styles')
+@endsection
+
+@section('extra-css')
+@endsection
+
+@section('bar-title', '')
+@section('page-title', '')
+@section('content')
+@endsection
+
+@section('page-script-plugins')
+@endsection
+
+@section('page-level-scripts')
+@endsection
+
+@section('theme-layout-scripts')
+@endsection
+
+@section('extra-js')
+@endsection

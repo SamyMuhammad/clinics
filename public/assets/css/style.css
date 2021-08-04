@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'cairo';
+    src: url('../fonts/Cairo/Cairo-Regular.ttf');
+}
+
+html, body, body *{
+    font-family: 'cairo',sans-serif,"Open Sans";
+}
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+.page-header.navbar .page-logo .logo-default{
+    width: 100px;
+    margin: 0;
+    overflow: hidden;
+}
+
+textarea {
+    resize: none;
+}
+
+/* For Tools buttons pdf, csv, ... */
+/*div.dt-buttons,*/ #sample_1_paginate, #sample_1_info, #sample_1_length{
+    display: none;
+}
+
+.table td{
+    font-size: 15px;
+}
+
+.lang-link{
+    display: inline-block;
+    margin: 14px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.lang-link:hover{
+    color: #FFF;
+}
+
+.login-link{
+    position: absolute;
+    top: 40px;
+    left: 47%;
+}
+
+.mt-5{
+    margin-top: 5px !important;
+}
+
+form.destroy-form{
+    display: inline-block;
+}
+
+img.form-photo{
+    width: 100px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.show-data{
+    font-size: 17px;
+}
+
+div.data-group{
+    margin-bottom: 20px;
+}
+
+div.invoice-block{
+    margin-top: 25px;
+}
+
+td img.table-photo{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+td.iteration{
+    width: 4%;
+}
+
+hr.roles {
+    margin: 13px 0;
+}
+
+.data-group>:first-child{
+    font-weight: bold;
+}
+
+table.show-data, .show-data th, .show-data td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table.show-data{
+    width: 100%;
+}
+
+.show-data th, .show-data td {
+    padding: 5px;
+    text-align: center;
+}
+
+/* .ml-5{
+    margin-left: 5px !important;
+} */
+
+.md-checkbox-inline .md-checkbox {
+    /* width: 210px; */
+    /*width: 18%;*/
+    min-width: 155px;
+    margin-bottom: 15px;
+}
+
+.dir-ltr{
+    direction: ltr !important;
+}
+
+.bootstrap-timepicker-widget{
+    direction: ltr;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-bold{
+    font-weight: 800 !important;
+}
+
+.children-font-size-15 *{
+    font-size: 15px !important;
+}
+
+.font-size-15{
+    font-size: 15px !important;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.time-radio{
+    width: 100px;
+    font-size: 14px;
+    height: 30px;
+    margin-right: 0 !important;
+}
+
+.btn-group-btn{
+    padding: 8px 16px;
+    color: #6f6f6f;
+    text-decoration: none;
+    display: block;
+    clear: both;
+    font-weight: 300;
+    line-height: 18px;
+    white-space: nowrap;
+    border: none;
+    background: none;
+}
+
+.table-scrollable .dataTable td>.btn-group {
+    margin-top: -7px;
+}

@@ -1,0 +1,76 @@
+<?php
+
+return array (
+  'patients' => 'Patients',
+  'register' => 'Patient Registration',
+  'code' => 'Code',
+  'ar_name' => 'Arabic Name',
+  'en_name' => 'English Name',
+  'phone' => 'Phone',
+  'national_id' => 'National ID',
+  'nationality' => 'Nationality',
+  'age' => 'Age',
+  'address' => 'Address',
+  'gender' => 
+  array (
+    'title' => 'Gender',
+    'male' => 'Male',
+    'female' => 'Female',
+  ),
+  'social_status' => 
+  array (
+    'title' => 'Social Status',
+    'single' => 'Single',
+    'married' => 'Married',
+  ),
+  'type' => 
+  array (
+    'title' => 'Type',
+    'citizen' => 'Citizen',
+    'resident' => 'Resident',
+    'visitor' => 'Visitor',
+  ),
+  'payment_method' => 
+  array (
+    'title' => 'Payment Method',
+    'cash' => 'Cash',
+    'cash_with_discount' => 'Cash With Discount',
+    'insurance_company' => 'Incurence Company',
+    'family' => 'Family',
+  ),
+  'status' => 
+  array (
+    'title' => 'Staus',
+    'closed' => 'Closed',
+    'blocked' => 'Blocked',
+    'opened' => 'Opened',
+  ),
+  'patient' => 'Patient',
+  'blockedPatients' => 'Blocked Patients',
+  'chooseDoctor' => 'Choose Doctor',
+  'diagnoses' => 'Diagnoses',
+  'noDiagnoses' => 'There is no diagnoses.',
+  'patientDiagnoses' => 'Diagnoses for patient',
+  'addDiagnose' => 'Add Diagnose',
+  'diagnose' => 'Diagnose',
+  'files' => 'Patient\'s Files',
+  'noFiles' => 'There is no files.',
+  'rayRequest' => 'Ray Request',
+  'chooseRaysTypes' => 'Choose Rays Types',
+  'noRays' => 'There is no rays.',
+  'rays' => 'Rays',
+  'medicalTestRequest' => 'Medical Test Request',
+  'chooseMedicalTest' => 'Choose Medical Tests',
+  'sendRequest' => 'Send Request',
+  'noTests' => 'There is no tests.',
+  'tests' => 'Medical Tests',
+  'makeReservation' => 'Make Reservation',
+  'closeFile' => 'Close File',
+  'insuranceCompany' => 'Insurance Company',
+  'chooseCompany' => 'Choose Company',
+  'emergencyPatients' => 'Emergency Patients',
+  'is_emergency' => 'Is Emergency Patient?',
+  'chooseDiscount' => 'Choose Discount',
+  'chooseRoom' => 'Choose Room',
+  'room' => 'Room',
+);
